@@ -1,0 +1,36 @@
+{
+  "name": "tm1closet-e-commerce-app-next-js",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@fancyapps/ui": "^4.0.31",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.10.1",
+    "@reduxjs/toolkit": "^1.8.5",
+    "dotenv": "^16.0.2",
+    "firebase": "^9.9.3",
+    "moment": "^2.29.4",
+    "next": "12.2.5",
+    "nextjs-progressbar": "^0.0.14",
+    "react": "18.2.0",
+    "react-country-flag": "^3.0.2",
+    "react-dom": "18.2.0",
+    "react-moment": "^1.1.2",
+    "react-redux": "^8.0.2",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "8.22.0",
+    "eslint-config-next": "12.2.5"
+  }
+}
