@@ -20,15 +20,40 @@ const ProductPage = ({ product }) => {
 
   const title = `${product.name} - TM CLOSET`
 
+  let domain
+  let url
+  if (typeof window !== 'undefined') {
+    domain = window.location.hostname
+    url = window.location.href.split('?')[0]
+  }
+
   return (
     <>
       <Head>
         <title>{title}</title>
-        <HeadShareCardMarkup
-          title={title}
-          image={product.imageUrl}
-          description="A boutique by specialists in wedding and evening dresses according to special standards, we care about the smallest details and offer you our products with the best specifications and the most beautiful models that highlight your unique looks"
+        <meta
+          name="description"
+          content="A boutique by specialists in wedding and evening dresses according to special standards, we care about the smallest details and offer you our products with the best specifications and the most beautiful models that highlight your unique looks"
         />
+
+        <meta property="og:url" content={url} />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content={title} />
+        <meta
+          property="og:description"
+          content="A boutique by specialists in wedding and evening dresses according to special standards, we care about the smallest details and offer you our products with the best specifications and the most beautiful models that highlight your unique looks"
+        />
+        <meta property="og:image" content={product.imageUrl} />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content={domain} />
+        <meta property="twitter:url" content={url} />
+        <meta name="twitter:title" content={title} />
+        <meta
+          name="twitter:description"
+          content="A boutique by specialists in wedding and evening dresses according to special standards, we care about the smallest details and offer you our products with the best specifications and the most beautiful models that highlight your unique looks"
+        />
+        <meta name="twitter:image" content={product.imageUrl} />
       </Head>
       <Box my={4}>
         <Box bgcolor="background.gray" sx={{ py: 2 }}>
