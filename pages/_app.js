@@ -30,7 +30,7 @@ function MyApp({ Component, pageProps }) {
           <title>TM CLOSET</title>
           <HeadShareCardMarkup
             title="TM CLOSET"
-            image="https://firebasestorage.googleapis.com/v0/b/tm1closettest.appspot.com/o/products%2Ftm-23.jpg?alt=media"
+            image="https://firebasestorage.googleapis.com/v0/b/tm1closettest.appspot.com/o/tm1closet-icon.jpg?alt=media"
             description="A boutique by specialists in wedding and evening dresses according to special standards, we care about the smallest details and offer you our products with the best specifications and the most beautiful models that highlight your unique looks"
           />
         </Head>
