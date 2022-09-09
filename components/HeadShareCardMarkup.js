@@ -13,7 +13,7 @@ const HeadShareCardMarkup = props => {
       <meta property="og:type" content="website" />
       <meta property="og:title" content={props.title} />
       <meta property="og:description" content={props.description} />
-      <meta property="og:image" content={props.image} />
+      <meta property="og:image" content={'https://firebasestorage.googleapis.com/v0/b/tm1closettest.appspot.com/o/products%2Ftm-23.jpg?alt=media'} />
 
       <meta name="twitter:card" content="summary_large_image" />
       <meta property="twitter:domain" content={domain} />
