@@ -6,6 +6,7 @@ const StyledButtonBox = styled(Box)(({ theme, circle }) => ({
   ...buttonMixins(theme),
   borderRadius: circle ? 1000 : theme.shape.lg,
 }))
+
 const CustomButton = props => {
   return (
     <StyledButtonBox onClick={props.onClick} sx={props.sx} circle={props?.circle}>

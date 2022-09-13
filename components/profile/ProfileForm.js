@@ -123,10 +123,7 @@ const ProfileForm = () => {
     if (currentImage == null) return
     setUploadPhotoLoading(true)
 
-    const imagePathRef = storageRef(
-      storage,
-      `user-profile-photo/${user.uid}/${currentImage.name + v4()}`
-    )
+    const imagePathRef = storageRef(storage, `user-profile-photo/${user.uid}/${v4() + currentImage.name}`)
     uploadBytes(imagePathRef, currentImage).then(snapshot => {
       getDownloadURL(snapshot.ref).then(url => {
         setPhotoURL(url)

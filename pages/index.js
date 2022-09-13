@@ -9,7 +9,6 @@ import { currencyFormatter } from '../utils/currencyFormatter'
 import { checkCurrencyQuery } from '../utils/checkCurrencyQuery'
 import { getPage } from './api/get-page'
 import Feature from '../components/pages/Home/Feature'
-import HeadShareCardMarkup from '../components/HeadShareCardMarkup'
 
 const HomePage = ({ page }) => {
   let domain
@@ -58,6 +57,8 @@ const HomePage = ({ page }) => {
       </Head>
       <Container maxWidth="lg">
         <Box sx={{ my: { xs: 2, sm: 3, md: 4 }, display: 'flex', alignItems: 'center' }}>
+
+
           <SortingButton />
           <Divider sx={{ flexGrow: 1 }} />
         </Box>
