@@ -20,7 +20,7 @@ const featureList = [
   {
     icon: <CheckroomIcon />,
     title: 'High quality',
-    subtitle: 'All dresses are designed according to the best international standards of high quality',
+    subtitle: 'All clothes are designed according to the best international standards of high quality',
   },
 ]
 

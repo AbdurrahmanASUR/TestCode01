@@ -39,9 +39,7 @@ const Footer = () => {
           <Grid item xs={12} md={4}>
             <FooterItem label="Who We Are?">
               <Typography color="text.primary">
-                A boutique by specialists in wedding and evening dresses according to special standards. We care about
-                the smallest details and offer you our products with the best specifications and the most beautiful
-                models that highlight your wonderful looks and increase the beauty of your presence.
+              Shop by menswear professionals according to special standards. We care about the smallest details and offer you our products with the best specifications and the most beautiful models that highlight your wonderful appearance and increase the beauty of your presence
               </Typography>
             </FooterItem>
           </Grid>

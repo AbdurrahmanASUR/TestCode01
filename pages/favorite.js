@@ -76,7 +76,7 @@ const FavoritePage = ({ products }) => {
 }
 
 export async function getStaticProps() {
-  const response = await fetch('https://tm1closettest-default-rtdb.europe-west1.firebasedatabase.app/products.json')
+  const response = await fetch('https://tm1closettest-default-rtdb.europe-west1.firebasedatabase.app/products-2.json')
   const data = await response.json()
 
   const products = Object.keys(data).map(key => ({ imageUrl: data[key].imageUrl, name: data[key].name, id: key }))
