@@ -1,6 +1,6 @@
 export const getAllProducts = async () => {
   const res = await fetch(
-    `https://tm1closettest-default-rtdb.europe-west1.firebasedatabase.app/products.json`
+    `https://tm1closettest-default-rtdb.europe-west1.firebasedatabase.app/products-2.json`
   )
   if (!res.ok) {
     return 'Cant get products'

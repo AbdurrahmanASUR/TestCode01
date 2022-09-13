@@ -6,7 +6,7 @@ export async function getPage(pageId, sortType) {
   const selectedPage = +pageId || 1
 
   const response = await fetch(
-    'https://tm1closettest-default-rtdb.europe-west1.firebasedatabase.app/products.json',
+    'https://tm1closettest-default-rtdb.europe-west1.firebasedatabase.app/products-2.json',
     { method: 'GET' }
   )
   const data = await response.json()

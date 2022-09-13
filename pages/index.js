@@ -57,8 +57,6 @@ const HomePage = ({ page }) => {
       </Head>
       <Container maxWidth="lg">
         <Box sx={{ my: { xs: 2, sm: 3, md: 4 }, display: 'flex', alignItems: 'center' }}>
-
-
           <SortingButton />
           <Divider sx={{ flexGrow: 1 }} />
         </Box>

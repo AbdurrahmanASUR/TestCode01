@@ -82,7 +82,7 @@ export async function getStaticProps(context) {
   const productId = context.params.productId
 
   const productRes = await fetch(
-    `https://tm1closettest-default-rtdb.europe-west1.firebasedatabase.app/products/${productId}.json`
+    `https://tm1closettest-default-rtdb.europe-west1.firebasedatabase.app/products-2/${productId}.json`
   )
   const product = await productRes.json()
 
