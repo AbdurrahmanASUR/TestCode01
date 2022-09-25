@@ -32,7 +32,7 @@ const CommentForm = ({ user, id }) => {
       addedDate: new Date().getTime(),
     }
     dispatch(uiActions.openModalLoading())
-    set(dbRef(database, 'products/' + id + '/comments/' + v4()), comment)
+    set(dbRef(database, 'products-2/' + id + '/comments/' + v4()), comment)
       .then(() => {
         addComment({ ...comment, displayName: user.displayName, photoURL: user.photoURL })
       })

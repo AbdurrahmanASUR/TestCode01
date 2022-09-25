@@ -1,6 +1,8 @@
 import { Container, Typography } from '@mui/material'
 import Head from 'next/head'
 
+// /orders
+
 const ordersPage = () => {
   return (
     <>

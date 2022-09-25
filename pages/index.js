@@ -10,6 +10,8 @@ import { checkCurrencyQuery } from '../utils/checkCurrencyQuery'
 import { getPage } from './api/get-page'
 import Feature from '../components/pages/Home/Feature'
 
+// /
+
 const HomePage = ({ page }) => {
   let domain
   let url

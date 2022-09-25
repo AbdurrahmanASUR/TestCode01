@@ -64,7 +64,7 @@ const AddToCartOptions = ({ product }) => {
       addedDate: new Date().getTime(),
     })
       .then(() => {
-        get(dbRef(database, 'products/' + product.id)).then(snapshot => {
+        get(dbRef(database, 'products-2/' + product.id)).then(snapshot => {
           if (snapshot.exists()) {
             const { imageUrl, price, name, sizes } = snapshot.val()
             dispatch(

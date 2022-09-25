@@ -33,7 +33,7 @@ const ProductPage = ({ product }) => {
         <title>{title}</title>
         <meta
           name="description"
-          content="A boutique by specialists in wedding and evening dresses according to special standards, we care about the smallest details and offer you our products with the best specifications and the most beautiful models that highlight your unique looks"
+          content="Shop by menswear professionals according to special standards. We care about the smallest details and offer you our products with the best specifications and the most beautiful models that highlight your wonderful appearance and increase the beauty of your presence"
         />
 
         <meta property="og:url" content={url} />
@@ -41,7 +41,7 @@ const ProductPage = ({ product }) => {
         <meta property="og:title" content={title} />
         <meta
           property="og:description"
-          content="A boutique by specialists in wedding and evening dresses according to special standards, we care about the smallest details and offer you our products with the best specifications and the most beautiful models that highlight your unique looks"
+          content="Shop by menswear professionals according to special standards. We care about the smallest details and offer you our products with the best specifications and the most beautiful models that highlight your wonderful appearance and increase the beauty of your presence"
         />
         <meta property="og:image" content={product.imageUrl} />
 
@@ -51,7 +51,7 @@ const ProductPage = ({ product }) => {
         <meta name="twitter:title" content={title} />
         <meta
           name="twitter:description"
-          content="A boutique by specialists in wedding and evening dresses according to special standards, we care about the smallest details and offer you our products with the best specifications and the most beautiful models that highlight your unique looks"
+          content="Shop by menswear professionals according to special standards. We care about the smallest details and offer you our products with the best specifications and the most beautiful models that highlight your wonderful appearance and increase the beauty of your presence"
         />
         <meta name="twitter:image" content={product.imageUrl} />
       </Head>
