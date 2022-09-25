@@ -2,6 +2,7 @@ import { Box } from '@mui/material'
 import { useRouter } from 'next/router'
 import { centered } from '../../mixins/centered'
 
+
 const Logo = () => {
   const router = useRouter()
   return (
@@ -12,15 +13,15 @@ const Logo = () => {
         cursor: 'pointer',
         ...centered(),
         position: { xs: 'static', md: 'absolute' },
-        right: {md: '50%'},
-        translate: {md: '50%'}
+        right: { md: '50%' },
+        translate: { md: '50%' },
       }}
       onClick={() => {
         router.push('/')
       }}
     >
       <img
-        src="https://firebasestorage.googleapis.com/v0/b/tm1closettest.appspot.com/o/tm1closet.jpg?alt=media"
+        src="https://firebasestorage.googleapis.com/v0/b/tm1closettest.appspot.com/o/tm1closet.jpg?alt=media&token=772fb2dc-da4c-4636-9704-2a7191523a71"
         style={{ height: '100%' }}
         alt="tm closet"
       />

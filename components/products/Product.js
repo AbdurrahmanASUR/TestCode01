@@ -64,7 +64,7 @@ const Product = props => {
       addedDate: new Date().getTime(),
     })
       .then(async () => {
-        get(dbRef(database, 'products/' + props.id)).then(snapshot => {
+        get(dbRef(database, 'products-2/' + props.id)).then(snapshot => {
           if (snapshot.exists()) {
             const { imageUrl, price, name, sizes } = snapshot.val()
             dispatch(
