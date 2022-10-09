@@ -25,7 +25,7 @@ const HomePage = ({ page }) => {
       <Head>
         <meta
           name="description"
-          content="A boutique by specialists in wedding and evening dresses according to special standards, we care about the smallest details and offer you our products with the best specifications and the most beautiful models that highlight your unique looks"
+          content="Shop by menswear professionals according to special standards. We care about the smallest details and offer you our products with the best specifications and the most beautiful models that highlight your wonderful appearance and increase the beauty of your presence"
         />
 
         <meta property="og:url" content={url} />
@@ -33,7 +33,7 @@ const HomePage = ({ page }) => {
         <meta property="og:title" content={'TM CLOSET'} />
         <meta
           property="og:description"
-          content="A boutique by specialists in wedding and evening dresses according to special standards, we care about the smallest details and offer you our products with the best specifications and the most beautiful models that highlight your unique looks"
+          content="Shop by menswear professionals according to special standards. We care about the smallest details and offer you our products with the best specifications and the most beautiful models that highlight your wonderful appearance and increase the beauty of your presence"
         />
         <meta
           property="og:image"
@@ -45,10 +45,10 @@ const HomePage = ({ page }) => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta property="twitter:domain" content={domain} />
         <meta property="twitter:url" content={url} />
-        <meta name="twitter:title" content={'TM CLOSET'} />
+        <meta name="twitter:title" content='TM CLOSET' />
         <meta
           name="twitter:description"
-          content="A boutique by specialists in wedding and evening dresses according to special standards, we care about the smallest details and offer you our products with the best specifications and the most beautiful models that highlight your unique looks"
+          content="Shop by menswear professionals according to special standards. We care about the smallest details and offer you our products with the best specifications and the most beautiful models that highlight your wonderful appearance and increase the beauty of your presence"
         />
         <meta
           name="twitter:image"
