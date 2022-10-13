@@ -50,7 +50,7 @@ const FavoriteItem = ({ product }) => {
       addedDate: new Date().getTime(),
     })
       .then(async () => {
-        get(dbRef(database, 'products/' + product.productId)).then(snapshot => {
+        get(dbRef(database, 'products-2/' + product.productId)).then(snapshot => {
           if (snapshot.exists()) {
             const { imageUrl, price, name, sizes } = snapshot.val()
             dispatch(
